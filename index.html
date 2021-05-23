@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image:url("Carvsjet.gif");
+                background-position: center;
+                background-size: cover;
+            }
+            h1,h5,h4{
+                color:rgb(255, 255, 255)!important;
+            }
+            canvas{
+                background-image:url("https://clipground.com/images/racetrack-number-1-clipart-20.png");
+                background-position:center;
+                background-size:cover;
+                margin-right:110px;
+            }
+        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <title>
+            Car Racers!
+        </title>
+    </head>
+        <body onload="done()">
+            <center>
+                <h1>
+                Car Racers!
+            </h1>
+            <h5>
+                <p class="text-success">
+                    Let the races begin!
+                </p>
+            </h5>
+            <b class="text-danger">
+                Note:
+            </b>
+            If any cars are not visible, just press any arrow key!
+            <br>
+            <br>
+           <span><h3>And the winner is:</h3></span><span><div id="dang"></div></span>
+            <canvas id="mc" width="800" height="600"></canvas>
+        </center>
+            <script src="main.js"></script>
+        </body>
+</html>
